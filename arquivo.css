@@ -21,6 +21,33 @@ header h1{
     font-size: 24px;
 }
 
-nav {
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
 
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0,3s;
+}
+
+nav a:hover{
+
+    color: #38bdf8;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+    background-color:aliceblue;
+}
+
+
+.text{
+    max-width: 500px;
 }
